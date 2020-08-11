@@ -26,8 +26,11 @@ span {
   padding: 10px;
   text-align: center;
 }
-@media(min-width=650px){
-  .container{
-    display:block;
+@media (max-width: 650px) {
+  .container {
+    display: block;
+  }
+  div {
+    padding: 70px;
   }
 }
