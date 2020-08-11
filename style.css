@@ -26,3 +26,8 @@ span {
   padding: 10px;
   text-align: center;
 }
+@media(min-width=650px){
+  .container{
+    display:block;
+  }
+}
